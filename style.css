@@ -87,3 +87,20 @@ span {
 .carousel-indicators .active {
   background-color: #FFB425;
 }
+
+@media screen and (max-width: 936px) {
+  h1 {
+    font-size: 1.2rem !important;
+  }
+
+  h2, .nav-link, p, span{
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #ReferenciaSobreEmpresa{
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+}
